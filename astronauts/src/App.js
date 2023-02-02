@@ -27,7 +27,7 @@ function App() {
   //Function for get the data from Shopping Cart stored in the browser.
   const getCartProducts = () => {
     const cartProducts = JSON.parse(localStorage.getItem("cartProducts"));
-    if (cartProducts.length > 0) {
+    if (cartProducts?.length > 0) {
       setDropDown(true);
       return setCartProducts(cartProducts);
     }

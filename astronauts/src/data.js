@@ -18,7 +18,7 @@ const product=[
     {
         name: "Orange Suit",
         key: Math.random(),
-        price: 15,
+        price: 15000,
         image: orangesuit,
         alt: "roupa espacial laranja",
         type: "traje com capacete",
@@ -26,7 +26,7 @@ const product=[
     }, {
         name: "Silver Suit",
         key: Math.random(),
-        price: 10,
+        price: 10000,
         image: silversuit,
         alt: "roupa espacial prata",
         type: "traje com capacete",
@@ -35,7 +35,7 @@ const product=[
     {
         name: "Vintage Suit",
         key: Math.random(),
-        price: 20,
+        price: 20000,
         image: oldsuit,
         alt: "roupa espacial antiga",
         type: "traje com capacete",
@@ -44,7 +44,7 @@ const product=[
     {
         name: "Full Suit",
         key: Math.random(),
-        price: 10,
+        price: 10000,
         image: bluesuit,
         alt: "roupa espacial com equipamento",
         type: "traje com capacete",
@@ -52,7 +52,7 @@ const product=[
     }, {
         name: "Apollo A4-H",
         key: Math.random(),
-        price: 12,
+        price: 12000,
         image: apolloa4,
         alt: "traje Apollo A4-H",
         type: "sem capacete",
@@ -60,7 +60,7 @@ const product=[
     },{
         name: "Apollo SPD-143",
         key: Math.random(),
-        price: 16,
+        price: 16000,
         image: apollospd,
         alt: "roupa espacial Apollo SPD-143",
         type: "sem capacete",
@@ -68,7 +68,7 @@ const product=[
     },{
         name: "E.M.U - Lançamento",
         key: Math.random(),
-        price: 5,
+        price: 5000,
         image: emu,
         alt: "Traje Espacial último lançamento",
         type: "traje com capacete",
@@ -76,7 +76,7 @@ const product=[
     },{
         name: "Gemini G3-C",
         key: Math.random(),
-        price: 13,
+        price: 13000,
         image: gemini,
         alt: "Traje Espacial Gemini",
         type: "sem capacete",
@@ -84,7 +84,7 @@ const product=[
     },{
         name: "Mk I 'O'",
         key: Math.random(),
-        price: 17,
+        price: 17000,
         image: mkiio,
         alt: "Traje Espacial Mk I O",
         type: "sem capacete",
@@ -92,7 +92,7 @@ const product=[
     },{
         name: "Helmet I",
         key: Math.random(),
-        price: 7,
+        price: 7000,
         image: helmet1,
         alt: "Helmet IO",
         type: "helmet",
@@ -100,7 +100,7 @@ const product=[
     },{
         name: "Helmet II",
         key: Math.random(),
-        price: 8,
+        price: 8000,
         image: helmet2,
         alt: "Helmet II",
         type: "helmet",
@@ -108,7 +108,7 @@ const product=[
     },{
         name: "Helmet III",
         key: Math.random(),
-        price: 10,
+        price: 10000,
         image: helmet3,
         alt: "Helmet III",
         type: "helmet",
@@ -116,7 +116,7 @@ const product=[
     },{
         name: "Jaqueta Espacial",
         key: Math.random(),
-        price: 8,
+        price: 8000,
         image: balenWhite,
         alt: "jacketa espacial Balen White",
         type: "acessorio",
@@ -124,7 +124,7 @@ const product=[
     },{
         name: "Pochete NASA",
         key: Math.random(),
-        price: 5,
+        price: 5000,
         image: pochete,
         alt: "Pochete NASA",
         type: "acessorio",
@@ -132,7 +132,7 @@ const product=[
     },{
         name: "Mochila Espacial",
         key: Math.random(),
-        price: 3,
+        price: 3000,
         image: mochila,
         alt: "Mochila Espacial",
         type: "acessorio",
