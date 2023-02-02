@@ -40,7 +40,7 @@ export function ShoppingCart({
         );
       })}
       {cartProducts.length > 0 ? (
-        <TotalTxt>Total do carrinho: R${totalCart.toFixed(3)}</TotalTxt>
+        <TotalTxt>Total do carrinho: R${totalCart}</TotalTxt>
       ) : (
         <CartTitle>Não há items no carrinho!</CartTitle>
       )}

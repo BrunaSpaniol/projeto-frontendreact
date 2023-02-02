@@ -7,9 +7,9 @@ export function Cart({ item, changeQty, remove, total }) {
       <CartImg src={item.image} alt={item.name} />
       <ProductAdded key={item.key}>
         <Txt>{item.name}</Txt>
-        <Txt>R$ {item.price.toFixed(3)}</Txt>
+        <Txt>R$ {item.price}</Txt>
         <Txt>Quantidade: {item.quantity}</Txt>
-        <Txt>Total: R${total.toFixed(3)}</Txt>
+        <Txt>Total: R${total}</Txt>
       </ProductAdded>
       <DivButton>
         <ButtonCartProduct onClick={() => changeQty(item, "sum")}> + </ButtonCartProduct>
